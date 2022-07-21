@@ -1,0 +1,144 @@
+
+body{
+    font-family: "Open Sans";
+    color: #fff;
+}
+
+.ipt
+{
+    width: 235px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+
+label
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 45px;
+    font-family: Helvetica, sans-serif;
+    /*padding-left: 10px;*/
+    
+}
+
+.selection
+{
+    width: 245px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 03px;
+    border: 1px solid #CCC;
+    border-left: 03px solid #00cec9;
+}
+.header
+{
+    text-align: left;
+    margin-right: 2px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.7);
+    width: 80px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
+     width: 785px;
+    height: 750px;
+    border-radius: 05px; /*border nung white container lang*/
+
+}
+
+.form img {
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 50px);
+    width: 100px;
+   
+  
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+}
+a:hover{
+    opacity: 1;
+}
+.add
+{
+    width: 755px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+h1{
+    color:  #66B2FF;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.control input{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    color:#000;
+    background: #ddd;
+    outline: none;
+    border: none;
+    margin: 1em 0;
+
+}         
+.control .btn{
+    display: block;
+    margin-inline: auto;
+    border: none;
+    outline: none;
+    background:#0078FF;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:focus{
+    opacity: 1;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+}
+a:hover{
+    opacity: 1;
+}
+
+.txt3 {
+    font-weight: Bold;
+    font-size: 15px;
+    color: #0078FF;
+    line-height: 1.4;
+    text-transform: uppercase;
+}

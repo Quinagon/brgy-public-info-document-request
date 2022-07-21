@@ -1,0 +1,120 @@
+body
+{
+    font-family: Helvetica, sans-serif;
+	background-color: #CCC;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container /*that white box*/
+{
+	background: #F8F9FA;
+	width: 785px;
+	height: 900px;
+	border-radius: 05px; /*border nung white container lang*/
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+	margin-top: 50px;
+}
+.paragraph
+{
+    background: #74b9ff;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 03px; /*border nung title*/
+    padding: 15px 0px 15px 0px; /*size ng border ni title*/
+    margin-bottom: 50px; /*whitespace after border #55efc4*/
+}
+
+.header
+{
+    margin-right: 2px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ipt
+{
+    width: 235px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+
+label
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 45px;
+    font-family: Helvetica, sans-serif;
+    /*padding-left: 10px;*/
+    
+}
+
+.selection
+{
+    width: 245px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 03px;
+    border: 1px solid #CCC;
+    border-left: 03px solid #00cec9;
+}
+
+.button
+{
+    border: 2px solid #008CBA;
+    width: 200px;
+    height: 50px;
+    margin-left: 285px; /*margin ng mismong button*/
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    padding: 15px 55px; /*top-bottom, left-right*/
+    color: #576574;
+    transition-duration: 0.3s;
+}
+
+.button:hover /*animation ng button*/
+{
+    background-color: #54a0ff; /* blue */
+    color: white;
+}
+
+.add
+{
+    width: 755px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

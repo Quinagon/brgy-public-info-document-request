@@ -1,0 +1,61 @@
+body
+{
+    font-family: Helvetica, sans-serif;
+    background-color: #CCC;
+	padding: 0px;
+	margin: 0px;
+}
+
+.containerB /*that white box*/
+{
+	background: #F8F9FA;
+	width: 505px;
+	height: 300px;
+	border-radius: 05px; /*border n ung white container lang*/
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+	margin-top: 250px;
+}
+
+.paragraph
+{
+    background: #74b9ff;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 03px;
+    padding: 15px 0px 15px 0px; 
+    margin-bottom: 50px;
+}
+
+.headerB1
+{
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.button
+{
+    border: 2px solid #008CBA;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 150px; /*margin ng mismong button*/
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    padding: 15px 55px; /*top-bottom, left-right*/
+    color: #576574;
+    transition-duration: 0.3s;
+}
+
+.button:hover /*animation ng button*/
+{
+    background-color: #54a0ff; /* blue */
+    color: white;
+}
