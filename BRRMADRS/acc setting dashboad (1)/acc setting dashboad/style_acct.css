@@ -1,0 +1,224 @@
+body {
+  overflow-x: hidden;
+}
+
+.container /*that white box*/
+{
+	background: #F8F9FA;
+	width: 785px;
+	height: 1023px;
+	border-radius: 05px; /*border nung white container lang*/
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+  
+}
+
+.content {
+  margin-top: 0;
+}
+.paragraph
+{
+    background: #74b9ff;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 03px; /*border nung title*/
+    padding: 15px 0px 15px 0px; /*size ng border ni title*/
+    margin-bottom: 50px; /*whitespace after border #55efc4*/
+}
+
+.header
+{
+    margin-right: 2px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ipt
+{
+    width: 235px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+
+.label
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 45px;
+    font-family: Helvetica, sans-serif;
+    /*padding-left: 10px;*/
+    
+}
+
+.selection
+{
+    width: 245px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 03px;
+    border: 1px solid #CCC;
+    border-left: 03px solid #00cec9;
+}
+
+.button
+{
+    border: 2px solid #008CBA;
+    width: 200px;
+    height: 50px;
+    /* margin-left: 285px; margin ng mismong button */
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    padding: 15px 55px; /*top-bottom, left-right*/
+    color: #576574;
+    transition-duration: 0.3s;
+}
+
+.button:hover /*animation ng button*/
+{
+    background-color: #54a0ff; /* blue */
+    color: white;
+}
+
+.add
+{
+    width: 755px;
+    height: 35px;
+    border-radius: 03px;
+    border: none; /*medyo faded color lang yung txtbox*/
+    border: 1px solid #CCC;
+    margin-left: 10px; /*that lil margin between them txtboxes*/
+    padding-left: 05px; /*space ng elements sa loob ng txtboxes*/
+    border-left: 03px solid #00cec9;
+    margin-top: 3px;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.btn-bottom {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .popup .paragraph {
+      margin-bottom: 0;
+  }
+
+
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+  .modal-content {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .modal-content .ipt {
+    margin-bottom: 1rem;
+  }
+
+  .modal-content .button {
+    margin-left: 2rem;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+  .modal-note {
+    border: 1px solid #0080ff;
+    background-color: #9bcbfc;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+
+.right {
+  background: #e7f3ff;
+  padding: 5rem;
+  margin-left: 3rem;
+  width: 100%;
+}
